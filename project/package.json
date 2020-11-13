@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon app.js"
+    "devStart": "cross-env PORT=8086 nodemon app.js",
+    "prodStart": "cross-env PORT=80 node app.js"
   },
   "keywords": [],
   "author": "",
