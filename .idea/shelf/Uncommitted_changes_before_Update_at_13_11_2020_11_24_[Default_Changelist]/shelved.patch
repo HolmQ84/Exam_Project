@@ -1,0 +1,26 @@
+Index: project/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.env\r\nnode_modules\r\npackage-lock.json\r\n
+===================================================================
+--- project/.gitignore	(revision 3ae8d148929883c9122ba4d90a25586874ca6de3)
++++ .gitignore	(date 1605263078512)
+@@ -1,3 +1,3 @@
+-.env
+-node_modules
++../project/.env
++project/node_modules
+ package-lock.json
+Index: .idea/.gitignore
+===================================================================
+--- .idea/.gitignore	(revision 3ae8d148929883c9122ba4d90a25586874ca6de3)
++++ .idea/.gitignore	(revision 3ae8d148929883c9122ba4d90a25586874ca6de3)
+@@ -1,8 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+-# Datasource local storage ignored files
+-/../../../../../../:\Users\marti\IdeaProjects\Exam_Project\.idea/dataSources/
+-/dataSources.local.xml
+-# Editor-based HTTP Client requests
+-/httpRequests/
